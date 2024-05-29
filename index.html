@@ -1,16 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicial</title>
+    <title>Semantica</title>
 </head>
-<body>
 
-    <h1>Eu sou um H1</h1>
-    
-    <a href="https://www.lipsum.com"  target="_blank"> Eu sou um link!</a>
-    <br><br><br>
-    <hr>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxas</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+    <section>
+        <h2>Venda de pacotes</h2>
+
+        <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis quam, mattis id faucibu
+            hendrerit eget magna. Integer vel lacus nec neque vehicula lacinia a id erat. Etiam at
+            efficitur dui. Etiam luctus leo eget nunc mollis malesuada. Donec posuere diam tortor,
+            in luctus ligula commodo non. Quisque cursus auctor viverra. Cras pellentesque at tellus
+            vel lobortis. Sed gravida purus dapibus quam porttitor, et feugiat lacus suscipit. Donec
+            ac dui in enim mollis rutrum at vitae arcu.
+            <hr>
+        </p>
+        <figure>
+            <img src="./img/girl-port.jpg" alt="Garota de vestido preto em marina" width="500px">
+            <figcaption>Marina</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/cachoeira.jpg" alt="mulher em cachoeira" width="500px">
+            <figcaption>Cachoeira</figcaption>
+        </figure>
+        <figure>
+            <img src="./img/praia.jpg" alt="mulher na praia" width="500px">
+            <figcaption>Praia</figcaption>
+        </figure>
+    </section>
+    <video controls width="500px">
+        <source src="./video/3833491-hd_1080_1920_30fps.mp4" type="video/mp4">
+        Seu navegador não suporta ess formato
+        <a href="./video/3833491-hd_1080_1920_30fps.mp4">Clique para baixar</a>
+
+    </video>
+    <section>
+        <h2>Contato</h2>
+        <form action="#" method="get">
+            <label for="">Nome</label><br>c:\Users\HAHAHA\Desktop\Cursos\git e github.txt c:\Users\HAHAHA\Desktop\Cursos\markdown.txt c:\Users\HAHAHA\Desktop\Cursos\pages.txt
+            <input type="text" name="nome"><br><br>
+            <label for="">Email</label><br>
+            <input type="email" name="email" id=""><br>
+            <label for="">Comentários</label><br>
+            <textarea rols="5" name="comentario" id=""></textarea><br><br>
+            <button>Salvar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas para serviços</p>
+        <table border="1">
+            <caption>Descrição dos serviços e respectivos valores </caption>
+            <thead>
+                <tr>
+                    <td>Serviço</td>
+                    <td>Taxa</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$ 500,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de passagns</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de carros</td>
+                    <td>R$ 50,00</td>
+                </tr>
+            </tbody>            
+        </table>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Carlos Eduardo</p>
+    </footer>
 </body>
+
 </html>

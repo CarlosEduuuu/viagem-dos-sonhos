@@ -1,5 +1,9 @@
-/* h2{
-    margin-top: 3px;
-    padding: 20px;
-    color: red;
-} */
+img{
+ 
+    height: 500px;
+}
+.carousel-caption h5{
+    font-size: 80PX;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
